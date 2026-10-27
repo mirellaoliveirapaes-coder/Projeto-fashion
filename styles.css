@@ -1,11 +1,11 @@
-/* Reset Básico de Margens */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Configurações Gerais da Página */
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #222222;
@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* Container de Alinhamento Centralizado */
+
 .container {
     width: 100%;
     max-width: 940px;
@@ -21,7 +21,7 @@ body {
     padding: 0 20px;
 }
 
-/* 1. Cabeçalho (Logo e Menu) */
+
 .cabecalho {
     padding: 25px 0;
     background-color: #ffffff;
@@ -52,9 +52,9 @@ body {
     color: #000000;
 }
 
-/* 2. Banner Principal */
+
 .secao-topo {
-    padding-bottom: 20px;
+   padding-bottom: 20px;
 }
 
 .banner-principal {
@@ -63,7 +63,6 @@ body {
     height: auto;
 }
 
-/* 3. Seção de Introdução (Texto Superior) */
 .secao-intro {
     text-align: center;
     padding: 40px 0 50px 0;
@@ -86,7 +85,7 @@ body {
     text-justify: inter-word;
 }
 
-/* 4. Grid de Modelos (Três colunas lado a lado) */
+
 .secao-modelos {
     padding-bottom: 60px;
 }
@@ -123,11 +122,10 @@ body {
     font-style: italic;
 }
 
-/* 5. Seção Bloco Azul de Destaque */
 .secao-fundo-azul {
-    background-color: #0d384d; /* Tom azul escuro idêntico ao bg_detalhe */
+    background-image: url(img/fundoAzul.png); 
     color: #ffffff;
-    padding: 70px 0;
+    padding-bottom: 70px 0;
 }
 
 .conteudo-azul {
@@ -150,42 +148,13 @@ body {
     text-justify: inter-word;
 }
 
-/* 6. Seção de Contato e Mapa */
-.secao-contato {
-    text-align: center;
-    padding: 60px 0;
-    background-color: #ffffff;
-}
-
-.chamada-design {
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #333333;
-    margin-bottom: 5px;
-}
-
-.telefone {
-    font-size: 28px;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 40px;
-}
-
-.mapa-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    border: 1px solid #dddddd;
-    line-height: 0; /* Remove pequenos espaços abaixo do iframe */
-}
-
-/* 7. Rodapé */
 .rodape {
-    background-color: #09171f; /* Fundo do rodapé baseado na barra inferior do layout */
+    background-color: #09171f; 
     color: #ffffff;
     text-align: center;
     padding: 25px 0;
     font-size: 11px;
     letter-spacing: 1px;
 }
+
+
